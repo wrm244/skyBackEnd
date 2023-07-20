@@ -82,6 +82,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
         mappingJackson2HttpMessageConverter.setObjectMapper(new JacksonObjectMapper());
         //加入容器中
         converters.add(0,mappingJackson2HttpMessageConverter);
+        
     }
     
 }
